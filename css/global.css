@@ -77,8 +77,10 @@ footer {
 input[type='submit'] {
     background-color: #66CC99;
     color: #112233;
-    padding: 10px 15px;
-    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 12px 15px;
+    margin-top: 30px;
     border: 0;
     cursor: pointer;
 }
