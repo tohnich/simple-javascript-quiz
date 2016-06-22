@@ -1,0 +1,103 @@
+body {
+    background: #112233;
+    color: #112233;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#container {
+    width: 60%;
+    background: #F0F1F5;
+    padding: 25px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px dashed #112233;
+}
+
+    header h1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    header p {
+        padding: 0;
+        margin-top: 5px;
+        color: #000;
+    }
+
+section {
+    min-height: 400px;
+}
+
+    section h3 {
+        margin: 20px 0 5px 0;
+    }
+
+    section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+input[type='submit'] {
+    background-color: #66CC99;
+    color: #112233;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+#results h3 {
+    background-color: #112233;
+    color: #F0F1F5;
+    font-weight: normal;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#results span {
+    font-weight: bold;
+}
+
+.invalid {
+    background-color: #FC575E;
+    color: #F0F1F5;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#results.good h3 {
+    background: #66CC99;
+}
+
+#results.average h3 {
+    background: #44BBFF;
+}
+
+#results.bad h3 {
+    background: #FC575E;
+}
+
+@media ( max-width: 720px ) {
+
+    #container {
+        width: 90%;
+    }
+
+}
+
