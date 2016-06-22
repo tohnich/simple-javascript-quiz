@@ -1,3 +1,12 @@
+/* ----------------------------------------
+
+Name: Tom Gobich
+Date: June 22, 2016
+Abstract: Simple Javascript Quiz Form
+
+---------------------------------------- */
+
+/* Main Styles */
 body {
     background: #112233;
     color: #112233;
@@ -14,6 +23,9 @@ body {
     overflow: auto;
 }
 
+
+
+/* Header Styles */
 header {
     text-align: center;
     border-bottom: 1px dashed #112233;
@@ -30,6 +42,9 @@ header {
         color: #000;
     }
 
+
+
+/* Section Styles */
 section {
     min-height: 400px;
 }
@@ -44,6 +59,9 @@ section {
         margin: 0;
     }
 
+
+
+/* Footer Styles */
 footer {
     text-align: center;
     padding-top: 40px;
@@ -53,6 +71,9 @@ footer {
         margin: 0;
     }
 
+
+
+/* Form Styles */
 input[type='submit'] {
     background-color: #66CC99;
     color: #112233;
@@ -93,6 +114,9 @@ input[type='submit'] {
     background: #FC575E;
 }
 
+
+
+/* Responsive Styles */
 @media ( max-width: 720px ) {
 
     #container {
